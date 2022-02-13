@@ -15,7 +15,7 @@ const runCommand = command => {
 
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --deptch 1 https://github.com/arielmazor/react-router-redux-typscript-starter.git ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/arielmazor/react-router-redux-typscript-starter.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(`cloning the repo with name ${repoName}`);
