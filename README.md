@@ -6,7 +6,11 @@
 
 ```zsh
 git clone https://github.com/arielmazor/react-router-redux-typscript-starter.git
+<<<<<<< HEAD
 cd react-router-redux-typscript-starter
+=======
+cd navigator-redux-project
+>>>>>>> 1bf24ccfbd8bce460589962ee6c12daa5d4d8644
 npm install & npm start
 ```
 
